@@ -5,9 +5,8 @@ class Post extends Component {
     return (
       <div>
         <div>
-           { this.props.post.id } { this.props.post.title}
-           { this.props.post.url }
-        </div>
+           Title: { this.props.post.title } </div> <div>
+           link: { this.props.post.url } Author: { this.props.post.author.user.lastName } </div>
       </div>
     )
   }
