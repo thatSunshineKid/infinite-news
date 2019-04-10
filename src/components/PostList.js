@@ -11,6 +11,7 @@ const POST_QUERY = gql`
     title
     id
     url
+    description
     author {
       user {
         firstName
