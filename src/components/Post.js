@@ -7,7 +7,7 @@ class Post extends Component {
   <Card style={{ width: '23rem' }}>
     <Card.Body>
       <Card.Title>{ this.props.post.title }</Card.Title>
-      <Card.Subtitle className="mb-2 text-muted">{ this.props.post.author.user.firstName } { this.props.post.author.user.lastName}</Card.Subtitle>
+      <Card.Subtitle className="mb-2 text-muted">shared by: { this.props.post.author.user.firstName } { this.props.post.author.user.lastName}</Card.Subtitle>
       <Card.Text>
         { this.props.post.description }
       </Card.Text>
